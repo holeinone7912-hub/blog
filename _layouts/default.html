@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  {% if page.description %}
+  <meta name="description" content="{{ page.description | escape }}" />
+  {% endif %}
+
+  <style>
+    body { max-width: 980px; margin: 0 auto; padding: 18px 14px; font-family: system-ui, -apple-system, Segoe UI, Roboto, "Pretendard", sans-serif; line-height: 1.9; }
+    a { text-decoration: underline; }
+    pre { overflow:auto; padding: 14px; border-radius: 10px; background: rgba(0,0,0,0.05); }
+    .mermaid { margin: 14px 0; }
+  </style>
+
+  <!-- Mermaid -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      mermaid.initialize({ startOnLoad: false });
+
+      // ```mermaid fenced code block -> render as diagram
+      document.querySelectorAll('pre > code.language-mermaid').forEach((code) => {
+        const pre = code.parentElement;
+        const container = document.createElement('div');
+        container.className = 'mermaid';
+        container.textContent = code.textContent;
+        pre.replaceWith(container);
+      });
+
+      mermaid.run();
+    });
+  </script>
+</head>
+
+<body>
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>
