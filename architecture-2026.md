@@ -1,9 +1,5 @@
 ---
 layout: default
-title: "Engineering Report: Scalable & Secure Architecture 2026"
-description: "High-availability and secure architecture baseline for modern API platforms: autoscaling, WAF, OAuth, SIEM, and integrity controls."
-categories: [Engineering, Architecture, Security]
-tags: [High-Availability, Autoscaling, API-Security, OAuth2, TLS1.3, WAF, SIEM, Data-Integrity]
 ---
 
 # Engineering Report: Scalable & Secure Architecture 2026
