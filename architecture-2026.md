@@ -58,3 +58,4 @@ flowchart LR
   WAF --> SIEM[SIEM / Monitoring]
   API1 --> SIEM
   API2 --> SIEM
+```
