@@ -40,7 +40,8 @@
 ---
 
 ## Architecture Overview (Concept)
-아래는 개념 수준의 흐름도입니다. (GitHub Mermaid 지원)
+
+아래는 개념 수준의 흐름도입니다. (구현/벤더는 환경에 맞게 조정)
 
 ```mermaid
 flowchart LR
