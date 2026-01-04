@@ -43,7 +43,7 @@
 
 아래는 개념 수준의 흐름도입니다. (구현/벤더는 환경에 맞게 조정)
 
-```mermaid
+<div class="mermaid">
 flowchart LR
   U[Users] --> CDN[CDN / Edge]
   CDN --> WAF[WAF / Rate Limit]
@@ -58,4 +58,4 @@ flowchart LR
   WAF --> SIEM[SIEM / Monitoring]
   API1 --> SIEM
   API2 --> SIEM
-```
+</div>
