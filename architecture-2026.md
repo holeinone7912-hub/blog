@@ -63,15 +63,6 @@ flowchart LR
   API2 --> SIEM
 </div>
 
-> Mermaid 다이어그램이 텍스트로만 보이면, 레포에 **`_layouts/default.html`**을 만들고 Mermaid 스크립트를 로드해야 합니다.  
-> (이 문서는 `layout: default`로 동작하도록 구성되어 있습니다.)
-
----
-
-## Notes
-- 본 문서는 기술 참고 자료이며, 서비스 규모/규정/운영 체계에 따라 구현은 달라질 수 있습니다.
-- 상세 설명은 상단 Tier-1 문서(미디엄/구글사이트)에서 확인합니다.
-
 ---
 
 *Technical reference provided by PowerSoft Team.*
