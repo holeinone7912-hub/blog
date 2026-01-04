@@ -23,7 +23,7 @@ layout: default
 - **Cache / Queue**로 순간 폭주 완충(Buffering)
 - 장애 격리(Zone/Region) 및 점진적 배포(Blue/Green 또는 Canary)
 
-### 🔗 Reference (Tier-1)
+### 🔗 Reference
 - [Strategy Report (Medium)](https://medium.com/@holeinone7912/%EB%8C%80%EA%B7%9C%EB%AA%A8-%ED%8A%B8%EB%9E%98%ED%94%BD-%EC%B2%98%EB%A6%AC%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%B6%84%EC%82%B0-%EC%84%9C%EB%B2%84-%EC%84%A4%EA%B3%84%EC%99%80-99-9-%EA%B0%80%EB%8F%99%EB%A5%A0-%ED%99%95%EB%B3%B4-%EC%A0%84%EB%9E%B5-2ff02942e7c9)
 
 ---
@@ -37,7 +37,7 @@ layout: default
 - **Append-only Audit Log** + 핵심 이벤트(정산/지갑/결제) 추적
 - **SIEM 기반 모니터링** + 정책 기반 자동 대응(알림/차단/격리)
 
-### 🔗 Reference (Tier-1)
+### 🔗 Reference
 - [Security Guide (Google Sites)](https://sites.google.com/view/powersoft2026/%ED%99%88)
 
 ---
