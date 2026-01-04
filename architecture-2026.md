@@ -5,7 +5,6 @@ layout: default
 # Engineering Report: Scalable & Secure Architecture 2026
 
 본 문서는 현대적인 웹/API 플랫폼이 갖추어야 할 **확장성(Scale)**과 **보안(Security)**의 핵심 기준을 요약한 기술 리포트입니다.  
-(목적: 운영 관점 설계 원칙 정리 + 상세 자료(1티어) 연결)
 
 ---
 
